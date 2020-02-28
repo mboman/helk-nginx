@@ -1,2 +1,6 @@
 ---
-# tasks file for helk-nginx
+
+- name: Installing nginx
+  apt:
+    name: nginx
+    state: present
